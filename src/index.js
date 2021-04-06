@@ -1,0 +1,8 @@
+//Este archivo inicia la aplicacion
+
+import app from './app'
+import './database'
+
+
+app.listen(app.get('port'));
+console.log('server on port 3000');
