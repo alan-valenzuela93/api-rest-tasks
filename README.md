@@ -21,8 +21,8 @@ GET localhost:3000/api/tasks - return all the tasks
 GET localhost:3000/api/{id} - return a task by id  
 GET localhost:3000/api/done - return tasks already done
 
-POST http://localhost:3000/api/tasks - Post a task by 'title', 'description' and 'done' keys
+POST localhost:3000/api/tasks - Post a task by 'title', 'description' and 'done' keys
 
-DELETE http://localhost:3000/api/tasks/{id} - Delete a task by id
+DELETE localhost:3000/api/tasks/{id} - Delete a task by id
 
-PUT http://localhost:3000/api/tasks/{id} - Put
+PUT localhost:3000/api/tasks/{id} - Put
